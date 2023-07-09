@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+}
+
+.container{
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(240, 240, 240);
+    margin: 12% auto;
+    text-align: center;
+    border-radius: 30px;
+    padding-top: 55px;
+}
+
+.container p{
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container .bar{
+    margin-top: 50px;
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+
+.container .bar p{
+    margin-bottom: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container .kotak{
+    width: 20px;
+    height: 20px;
+    margin: 10px auto;
+}
+
+.container .bar .merah{
+    background-color: red;
+}
+
+.container .bar .hijau{
+    background-color: greenyellow;
+}
+
+.container .bar .biru{
+    background-color: blue;
+}
+
+.container .tombol{
+    margin-top: 50px;
+    width: 50%;
+    height: 300px;
+    float: right;
+}
+
+.container .tombol p{
+    margin-bottom: 90px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container .tombol button{
+    line-height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(0, 255, 115);
+    font-weight: bold;
+}
+
+.container .tombol button:hover{
+    cursor: pointer;
+}
